@@ -1,0 +1,376 @@
+body {
+    background-color: #fff;
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    width: 1280px;
+    height: 4710px;
+  }
+  
+  .header {
+    background-color: #000;
+    color: #fff;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: Alegreya;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .logo {
+    display: flex;
+    align-items: center;
+    margin-right: 456px;
+    margin-top: 5px; /* Відстань від назви Instagram до верху */
+    font-family: Alegreya;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .logo img {
+    width: 30px;
+    margin-right: 10px;
+  }
+  
+  .logo span {
+    color: #fff;
+  }
+  
+  .navigation a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 40px;
+    font-family: Alegreya;
+    font-size: 28px;
+  }
+  
+  .navigation a.active {
+    font-weight: bold;
+    color: #14A3A7;
+    font-family: Alegreya;
+    font-size: 28px;
+  }
+  /* Фото та текст зображений на головній сторінці */
+  .content-container {
+    display: flex;
+  }
+  
+  .photo-container {
+    margin-top: 50px;
+    margin-right: 40px;
+    border-radius: 30px;
+    overflow: hidden;
+  }
+  
+  .photo-container img {
+    width: 672px;
+    height: 732px;
+    border-radius: 30px;
+  }
+  
+  .text-container {
+    margin-top: 152px;
+  }
+  
+  .text-container p {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #000; 
+    font-family: Alegreya;
+    font-size: 28px;
+    width: 438px;
+    height: 468px;
+  }
+    /* коктейлі */
+    .content-container2 {
+      display: flex;
+    }
+    
+  .second-photo-container {
+        margin-top: 75px;
+        border-radius: 30px;
+        margin-left: 60px;
+        margin-right: 40px;
+        overflow: hidden;
+      }
+      
+ .second-photo-container img {
+        width: 345px;
+        height: 449px;
+        border-radius: 30px;
+      }
+
+      /* Перший коктейль */
+      .text-container2 {
+        margin-top: 85px;
+       }
+
+      .text-container2 p {
+        font-size: 16px;
+        line-height: 1.5;
+        color: #000;
+        font-family: Alegreya;
+        font-size: 20px;
+        width: 786px;
+        height: 356px;
+      }
+      .ingredients-button {
+        display: inline-flex;
+        padding: 0 29px;
+        width: 199px;
+        height: 38px;
+        margin-top: 35px; /* Відстань від тексту */
+        margin-left: 300px;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        border-radius: 30px;
+        background: #E8B9A5;
+        color: #000;
+        text-align: center;
+        font-family: Alegreya;
+        font-size: 28px;
+        text-decoration: none;
+        border: none;
+        cursor: pointer;
+        transition: background 0.3s;
+      
+      }
+      
+      .ingredients-button:hover {
+        background: #d58b77;
+      }
+/* коктейль 2 */
+.content-container3 {
+  display: flex;
+}
+
+.third-photo-container {
+    margin-top: 200px;
+    border-radius: 30px;
+    margin-left: 60px;
+    margin-right: 40px;
+    overflow: hidden;
+  }
+  
+.third-photo-container img {
+    width: 345px;
+    height: 449px;
+    border-radius: 30px;
+  }
+
+  /* Другий коктейль */
+  .text-container3 {
+    margin-top: 200px;
+   }
+
+  .text-container3 p {
+    color: #000;
+    font-family: Alegreya;
+    font-size: 20px;
+    line-height: 1.5;
+    width: 786px;
+    height: 356px;
+  }
+  .ingredients-button2 {
+    display: inline-flex;
+    padding: 0 29px;
+    width: 199px;
+    height: 38px;
+    margin-top: 70px; /* Відстань від тексту */
+    margin-left: 300px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 30px;
+    background: #CFB8E4;
+    color: #000;
+    text-align: center;
+    font-family: Alegreya;
+    font-size: 28px;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+    transition: background 0.3s;
+  
+  }
+  
+  .ingredients-button2:hover {
+    background: #a178c6;
+  }
+ 
+   /* коктейль 3 */
+.content-container4 {
+  display: flex;
+}
+
+ .fourth-photo-container {
+    margin-top: 250px;
+    border-radius: 30px;
+    margin-left: 60px;
+    margin-right: 40px;
+    overflow: hidden;
+  }
+  
+  .fourth-photo-container img {
+    width: 345px;
+    height: 449px;
+    border-radius: 30px;
+  }
+
+  /* Третій коктейль */
+  .text-container4 {
+    margin-top: 250px;
+   }
+
+  .text-container4 p {
+    color: #000;
+    font-family: Alegreya;
+    font-size: 20px;
+    line-height: 1.5;
+    width: 786px;
+    height: 356px;
+  }
+  .ingredients-button3 {
+    display: inline-flex;
+    padding: 0 29px;
+    width: 199px;
+    height: 38px;
+    margin-top: 50px; /* Відстань від тексту */
+    margin-left: 300px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 30px;
+    background: #14A3A7;
+    color: #000;
+    text-align: center;
+    font-family: Alegreya;
+    font-size: 28px;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+    transition: background 0.3s;
+  
+  }
+  
+  .ingredients-button3:hover {
+    background:#02696d;
+  }
+   /* коктейль 4 */
+.content-container5 {
+  display: flex;
+}
+
+ .fifth-photo-container {
+    margin-top: 250px;
+    border-radius: 30px;
+    margin-left: 60px;
+    margin-right: 40px;
+    overflow: hidden;
+  }
+  
+  .fifth-photo-container img {
+    width: 345px;
+    height: 449px;
+    border-radius: 30px;
+  }
+
+  /* Четвертий коктейль */
+  .text-container5 {
+    margin-top: 250px;
+   }
+
+  .text-container5 p {
+    color: #000;
+    font-family: Alegreya;
+    font-size: 20px;
+    line-height: 1.5;
+    width: 786px;
+    height: 356px;
+  }
+  .ingredients-button4 {
+    display: inline-flex;
+    padding: 0 29px;
+    width: 199px;
+    height: 38px;
+    margin-top: 50px; /* Відстань від тексту */
+    margin-left: 300px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 30px;
+    background: #EC700F;
+    color: #000;
+    text-align: center;
+    font-family: Alegreya;
+    font-size: 28px;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+    transition: background 0.3s;
+  
+  }
+  
+  .ingredients-button4:hover {
+    background:#bb5201;
+  }
+   /* коктейль 5 */
+.content-container6 {
+  display: flex;
+}
+
+ .sixth-photo-container {
+    margin-top: 250px;
+    border-radius: 30px;
+    margin-left: 60px;
+    margin-right: 40px;
+    overflow: hidden;
+  }
+  
+  .sixth-photo-container img {
+    width: 345px;
+    height: 449px;
+    border-radius: 30px;
+  }
+
+  /* П'ятий коктейль */
+  .text-container6 {
+    margin-top: 250px;
+   }
+
+  .text-container6 p {
+    color: #000;
+    font-family: Alegreya;
+    font-size: 20px;
+    line-height: 1.5;
+    width: 786px;
+    height: 356px;
+  }
+  .ingredients-button5 {
+    display: inline-flex;
+    padding: 0 29px;
+    width: 199px;
+    height: 38px;
+    margin-top: 70px; /* Відстань від тексту */
+    margin-left: 300px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 30px;
+    background: #F4D9B9;
+    color: #000;
+    text-align: center;
+    font-family: Alegreya;
+    font-size: 28px;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+    transition: background 0.3s;
+  
+  }
+  
+  .ingredients-button5:hover {
+    background:#cbb8a0;
+  }

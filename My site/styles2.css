@@ -1,0 +1,54 @@
+body {
+    background-color: #ffffff;
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    width: 1280px;
+    height: 4710px;
+  }
+  
+  .header {
+    background-color: #000;
+    color: #ffffff;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: Alegreya;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .logo {
+    display: flex;
+    align-items: center;
+    margin-right: 456px;
+    margin-top: 5px; /* Відстань від назви Instagram до верху */
+    font-family: Alegreya;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .logo img {
+    width: 30px;
+    margin-right: 10px;
+  }
+  
+  .logo span {
+    color: #fff;
+  }
+  
+  .navigation a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 40px;
+    font-family: Alegreya;
+    font-size: 28px;
+  }
+  
+  .navigation a.active {
+    font-weight: bold;
+    color: #14A3A7;
+    font-family: Alegreya;
+    font-size: 28px;
+  }
+ 
