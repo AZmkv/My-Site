@@ -135,11 +135,26 @@ body {
         border: none;
         cursor: pointer;
         transition: background 0.3s;
-      
+        .hidden {
+          display: none;
+        }
       }
       
       .ingredients-button:hover {
         background: #d58b77;
+      }
+    
+      .hiddenText1{
+        margin-left: 120px;
+        width: 502px;
+        height: 188.455px;
+        flex-shrink: 0;
+        color: #000;
+        font-family: Alegreya;
+        font-size: 20px;
+      }
+      .hidden1 {
+        display: none;
       }
 /* коктейль 2 */
 .content-container3 {
@@ -147,7 +162,7 @@ body {
 }
 
 .third-photo-container {
-    margin-top: 200px;
+    margin-top: 70px;
     border-radius: 30px;
     margin-left: 60px;
     margin-right: 40px;
@@ -162,7 +177,7 @@ body {
 
   /* Другий коктейль */
   .text-container3 {
-    margin-top: 200px;
+    margin-top: 70px;
    }
 
   .text-container3 p {
@@ -178,7 +193,7 @@ body {
     padding: 0 29px;
     width: 199px;
     height: 38px;
-    margin-top: 70px; /* Відстань від тексту */
+    margin-top: 90px; /* Відстань від тексту */
     margin-left: 300px;
     justify-content: center;
     align-items: center;
@@ -199,6 +214,18 @@ body {
   .ingredients-button2:hover {
     background: #a178c6;
   }
+  .hiddenText2{
+    margin-left: 120px;
+    width: 502px;
+    height: 188.455px;
+    flex-shrink: 0;
+    color: #000;
+    font-family: Alegreya;
+    font-size: 20px;
+  }
+  .hidden2 {
+    display: none;
+  }
  
    /* коктейль 3 */
 .content-container4 {
@@ -206,7 +233,7 @@ body {
 }
 
  .fourth-photo-container {
-    margin-top: 250px;
+    margin-top: 70px;
     border-radius: 30px;
     margin-left: 60px;
     margin-right: 40px;
@@ -221,7 +248,7 @@ body {
 
   /* Третій коктейль */
   .text-container4 {
-    margin-top: 250px;
+    margin-top: 70px;
    }
 
   .text-container4 p {
@@ -258,13 +285,25 @@ body {
   .ingredients-button3:hover {
     background:#02696d;
   }
+  .hiddenText3{
+    margin-left: 120px;
+    width: 502px;
+    height: 188.455px;
+    flex-shrink: 0;
+    color: #000;
+    font-family: Alegreya;
+    font-size: 20px;
+  }
+  .hidden3 {
+    display: none;
+  }
    /* коктейль 4 */
 .content-container5 {
   display: flex;
 }
 
  .fifth-photo-container {
-    margin-top: 250px;
+    margin-top: 70px;
     border-radius: 30px;
     margin-left: 60px;
     margin-right: 40px;
@@ -279,7 +318,7 @@ body {
 
   /* Четвертий коктейль */
   .text-container5 {
-    margin-top: 250px;
+    margin-top: 70px;
    }
 
   .text-container5 p {
@@ -295,7 +334,7 @@ body {
     padding: 0 29px;
     width: 199px;
     height: 38px;
-    margin-top: 50px; /* Відстань від тексту */
+    margin-top: 20px; /* Відстань від тексту */
     margin-left: 300px;
     justify-content: center;
     align-items: center;
@@ -316,13 +355,25 @@ body {
   .ingredients-button4:hover {
     background:#bb5201;
   }
+  .hiddenText4{
+    margin-left: 120px;
+    width: 502px;
+    height: 188.455px;
+    flex-shrink: 0;
+    color: #000;
+    font-family: Alegreya;
+    font-size: 20px;
+  }
+  .hidden4 {
+    display: none;}
+
    /* коктейль 5 */
 .content-container6 {
   display: flex;
 }
 
  .sixth-photo-container {
-    margin-top: 250px;
+    margin-top: 70px;
     border-radius: 30px;
     margin-left: 60px;
     margin-right: 40px;
@@ -337,7 +388,7 @@ body {
 
   /* П'ятий коктейль */
   .text-container6 {
-    margin-top: 250px;
+    margin-top: 70px;
    }
 
   .text-container6 p {
@@ -373,4 +424,38 @@ body {
   
   .ingredients-button5:hover {
     background:#cbb8a0;
+  }
+  .hiddenText5{
+    margin-left: 120px;
+    width: 502px;
+    height: 188.455px;
+    flex-shrink: 0;
+    color: #000;
+    font-family: Alegreya;
+    font-size: 20px;
+  }
+  .hidden5 {
+    display: none;}
+  #ratingSection {
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  #stars {
+    font-size: 30px;
+    cursor: pointer;
+  }
+  
+  .star {
+    color: #ddd;
+    margin: 0 5px;
+    cursor: pointer;
+  }
+  
+  .star:hover {
+    color: #ffcc00;
+  }
+  
+  .star.selected {
+    color: #ffcc00;
   }
